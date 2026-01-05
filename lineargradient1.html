@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: flex;
+        }
+        .container>div
+        {
+            height: 100px;
+            width:100px;
+            border:1px solid black;
+        }
+        .g1
+        {
+            background: linear-gradient(to left,rgb(120, 120, 223),rgb(58, 229, 58),yellow);
+        }
+        .g2
+        {
+            background: linear-gradient(45deg,yellow,green);
+        }
+        .g3
+        {
+            background: linear-gradient(red 10%,yellow  60% );
+        }
+        .g4
+        {
+            background: linear-gradient(red 20%, yellow 50% 60%,blue );
+        }
+        .g5
+        {
+            background: linear-gradient(white 80%,yellow 80%);
+        }
+        .g6
+        {
+            background: linear-gradient(yellow 20%,white 20% 80%,yellow 80%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="g6"></div>
+    </div>
+    
+</body>
+</html>
