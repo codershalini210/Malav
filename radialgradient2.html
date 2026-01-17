@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            height: 200px;
+            width:200px;
+            border:1px solid black;
+            
+            margin: 100px;
+        }
+        .g1
+        {
+            background: radial-gradient( circle farthest-corner  at top right,red,green);
+        }
+        .g2
+        {
+            background:radial-gradient(ellipse farthest-corner at top right,
+            red 10%,green 50%,transparent 50% ),
+            radial-gradient(circle farthest-corner at 100px 200px,
+             yellow 10%,pink 50%,transparent 50%);
+        }
+        /* .box:hover{
+            transform: translate(20px,50px)rotate(45deg)scale(1.5);
+        } */
+    </style>
+</head>
+<body>
+    <div class="box g1">
+
+    </div>
+    <div class="box g2">
+
+    </div>
+</body>
+</html>
