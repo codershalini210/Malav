@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            height:100px;
+            width:100px;
+            background-color: yellowgreen;
+
+        }
+        .box:hover{
+            transform: rotate(45deg);
+            background-color: blue;
+            transition: all 2s ;
+        }
+        .card
+        {
+            /* border:1px solid black; */
+            width:300px;
+            box-sizing: border-box;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-image: url(images/bg.PNG);
+            background-size:105% 105%;
+        }
+        .card:hover{
+             background-size:100% 100%;
+             box-shadow: 0px 0px 15px blue;
+             transition: all 500ms linear;
+        }
+    </style>
+</head>
+<body>
+    <div  class="box">
+
+    </div>
+    <div class="card">
+        <h2>Services</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error ex repudiandae provident, dolores ad deserunt ducimus distinctio magni quidem tenetur perferendis modi necessitatibus non at similique natus iure deleniti.</p>
+    </div>
+</body>
+</html>
