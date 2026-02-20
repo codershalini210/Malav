@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add()
+        {
+            var txta = document.getElementById("txta")
+            var txtb = document.getElementById("txtb")
+            let a = parseInt(txta.value)  
+            let b = parseInt(txtb.value)
+            let c = a+b
+            let msg = "sum is "+c
+            alert(msg)
+        }
+    </script>
+</head>
+<body>
+    <p>
+        a: <input type="text" id="txta">
+    </p>
+    <p>
+        b: <input type="text" id="txtb">
+    </p>
+    <input type="button" value="+" onclick="add()">
+</body>
+</html>
