@@ -1,0 +1,21 @@
+JavaScript Practical Questions
+
+Create an input box and a button. When the button is clicked, display the entered city name inside a paragraph using innerHTML.
+
+Take the user's name from an input box and display the message "Good Morning <name>" inside a div using innerHTML.
+
+Create a paragraph and a button "Make Text Blue". When the button is clicked, change the color of the paragraph text to blue using JavaScript style.
+
+Take a number from an input box and display "You entered: <number>" inside a span using innerHTML.
+
+Create a button "Change Text". When the button is clicked, change the text of a paragraph using innerHTML.
+
+Take a student's marks from an input box and display "Marks: <marks>" inside a paragraph using innerHTML.
+
+Create a paragraph and two buttons "Bold Text" and "Normal Text". Change the font weight of the paragraph using JavaScript style.
+
+Take a background color name from an input box and apply that color to a div using JavaScript style.
+
+Create a paragraph and two buttons "Hide Paragraph" and "Show Paragraph". Hide and show the paragraph using style.display.
+
+Take two numbers from input boxes and display their multiplication result inside a paragraph using innerHTML.
