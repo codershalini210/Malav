@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkEligibility()
+        {
+            var txtname = document.getElementById("txtname")
+            var txtage = document.getElementById("txtage")
+            var hmsg = document.getElementById("hmsg")
+            var name = txtname.value
+            var age = parseInt(txtage.value)
+            if(age>= 18)
+            {
+                hmsg.innerHTML = name +" you are eligibile to vote"
+            }
+            else
+            {
+                hmsg.innerHTML = name + " you are not eligible to vote "
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Enter name : <input type="text" id="txtname"></p>
+    <p>Enter age : <input type="text" id="txtage"></p>
+    <input type="button" value="Check" onclick="checkEligibility()">
+    <h2 id="hmsg"></h2>
+</body>
+</html>

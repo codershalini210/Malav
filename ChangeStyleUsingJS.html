@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box
+        {
+            height:100px;
+            width:100px;
+            background-color: orange;
+        }
+    </style>
+    <script>
+        function fun1()
+        {
+         let box = document.getElementById("box")
+         box.style.backgroundColor="green"   
+        }
+    </script>
+</head>
+<body>
+    <div id="box"></div>
+    <input type="button" value="Green" onclick="fun1()">
+    <input type="button" value="Red">
+    blue , orange ,pink
+</body>
+</html>
