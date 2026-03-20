@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1()
+        {
+            let pdata = document.getElementById("pdata")
+            pdata.innerHTML=""
+            let ary = [10,52,65,23,52]
+            for(let i = 0 ;i<5;i++)
+        {
+            pdata.innerHTML += ary[i]+"<br>"
+        }
+            // pdata.innerHTML += ary[0]+"<br>"
+            // pdata.innerHTML += ary[1]+"<br>"
+            // pdata.innerHTML += ary[2]+"<br>"
+            // pdata.innerHTML += ary[3]+"<br>"
+            // pdata.innerHTML += ary[4]+"<br>"
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="clickhere" onclick="fun1()">
+    <p id="pdata">
+
+    </p>
+</body>
+</html>
