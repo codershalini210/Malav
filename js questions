@@ -1,0 +1,31 @@
+🔹 Input + If-Else Based Questions
+Take a number from a textbox and check if it is even or odd.
+Take age input and check if the person is eligible to vote (18+).
+Take a number and check if it is positive, negative, or zero.
+Take marks input and display Pass or Fail (>= 40 pass).
+Take two numbers and find the greater number using if-else.
+🔹 For Loop Based Questions
+Take a number and print numbers from 1 to N.
+Print even numbers from 1 to 50 using for loop.
+Take a number and print its multiplication table.
+Find the sum of numbers from 1 to N.
+Reverse a number using a for loop (e.g., 123 → 321).
+🔹 While Loop Based Questions
+Print numbers from 1 to 10 using while loop.
+Take a number and print its digits one by one using while loop.
+Find the sum of digits of a number using while loop.
+Check whether a number is palindrome using while loop.
+Count number of digits in a number using while loop.
+🔹 Array Based Questions
+Take 5 numbers in an array and find the largest number.
+Find the sum of all elements in an array.
+Count how many even numbers are in an array.
+Reverse an array without using built-in functions.
+Search for a number in an array and print found / not found.
+💡 Bonus (Mixed Concept)
+
+👉 Take 5 numbers from textbox → store in array →
+
+find sum
+check each number even/odd
+print result using loop
