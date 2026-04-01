@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1()
+        {
+            let student = {}
+            // student.name = "Raman"
+            // student.age = 25
+            // student.contact = "2937489237"
+            let txtname = document.getElementById("txtname")
+            let txtage = document.getElementById("txtage")
+            let txtcontact = document.getElementById("txtcontact")
+            let pdata = document.getElementById("pdata")
+            student.name = txtname.value
+            student.age = txtage.value
+            student.contact = txtcontact.value
+            pdata.innerHTML = `student name : ${student.name} <br>
+                               age: ${student.age} <br>
+                               contact : ${student.contact} `
+            txtage.value=""
+            txtname.value=""
+            txtcontact.value = ""
+        }
+    </script>
+</head>
+<body>
+    <p>Enter student NAme : <input type="text" id="txtname"></p>
+    <p>Enter student age : <input type="number" id="txtage"></p>
+    <p>Enter student Contact : <input type="text" id="txtcontact"></p>
+    <input type="button" value="click here" onclick="fun1()">
+    <p id="pdata"></p>
+</body>
+</html>

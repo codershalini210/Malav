@@ -9,16 +9,15 @@
         {
             let pdata = document.getElementById("pdata")
             pdata.innerHTML=""
-            let ary = [10,52,65,23,52]
-            for(let i = 0 ;i<5;i++)
+            let ary = [10,52,65,23,52,545,58]
+            ary.push(8888)
+            ary.push(100)
+            ary.push(654)
+            for(let i = 0 ;i<ary.length;i++)
         {
             pdata.innerHTML += ary[i]+"<br>"
         }
-            // pdata.innerHTML += ary[0]+"<br>"
-            // pdata.innerHTML += ary[1]+"<br>"
-            // pdata.innerHTML += ary[2]+"<br>"
-            // pdata.innerHTML += ary[3]+"<br>"
-            // pdata.innerHTML += ary[4]+"<br>"
+            
         }
     </script>
 </head>
