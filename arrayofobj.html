@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let users = []
+        function fun1()
+        {
+            var txtname = document.getElementById("txtname")
+            var txtage = document.getElementById("txtage")
+            var tbdy = document.getElementById("tbdy")
+            let obj = {"name": txtname.value, "age":txtage.value}
+            users.push(obj)
+            tbdy.innerHTML = ""
+            let s = ""
+            for(let i =0 ;i<users.length;i++)
+            {
+                s += `<tr><td>${users[i].name}</td> <td>${users[i].age}</td></tr>`
+            }
+            tbdy.innerHTML = s
+            txtname.value=""
+            txtage.value = ""
+            // let s = `<tr><td>${obj.name}</td> <td>${obj.age}</td></tr>`
+            // tbdy.innerHTML = s
+            // console.log("hello world")
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Enter name : <input type="text" id="txtname">
+    </p>
+    <p>
+        Enter age : <input type="text" id="txtage">
+    </p>
+    <input type="button" value="click here" onclick="fun1()">
+    <table border="">
+        <thead>
+            <tr><th>NAme</th>
+            <th>Age</th></tr>
+        </thead>
+        <tbody id="tbdy">
+
+        </tbody>
+    </table>
+</body>
+</html>
